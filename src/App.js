@@ -7,6 +7,7 @@ import About from './About'
 import Projects from './Projects'
 import Work from './Work'
 import Contact from './Contact'
+import Header from './Header'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
         <>
             <BrowserRouter>
                 <div>
+                    <Header />
                     <div className=" main ui container">
                         <Route path="/" exact component={Home} />
                         <Route path="/about" exact component={About} />
