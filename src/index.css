@@ -1,0 +1,22 @@
+
+body {
+    color: white !important;
+    letter-spacing: 0.5px;
+}
+
+a.title.item {
+    color: white !important;
+}
+
+h2 {
+    color: white !important;
+    text-align: center;
+}
+
+.date {
+    margin-left: 700px;
+}
+
+span.job.title {
+    font-style: italic;
+}
