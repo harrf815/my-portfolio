@@ -6,7 +6,7 @@ const Work = () => {
 
     return (
         <div>
-            <h2> Work Experince </h2>
+            <h2> Work Experience </h2>
             <div>
                 <h4><span className="job title">Manager</span>, Salad Makers <span className="date">February 2009 - January 2021 </span></h4>
                 <ul>
