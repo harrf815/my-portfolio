@@ -1,6 +1,32 @@
 
+html {
+    scroll-behavior: smooth;
+}
+.card {
+    display: inline-block;
+    padding: 10px;
+}
+
+.front-side {
+    border-radius: 25px;
+}
+
+.back-side {
+    background-color: white !important;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.back-side-text {
+    margin-top: 25%;
+    color: black !important;
+}
+
+
+
 body {
     color: white !important;
+    background-color: rgb(54, 54, 54) !important;
     letter-spacing: 0.5px;
 }
 
@@ -21,4 +47,17 @@ h2 {
 
 span.job.title {
     font-style: italic;
+}
+
+/*! Projects */
+
+.project-title {
+    display: inline-block;
+}
+
+.github {
+    margin-left: 10px;
+    color: #888888;
+    display: inline-block;
+    padding-right: 5px;
 }
