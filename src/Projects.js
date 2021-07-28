@@ -10,13 +10,11 @@ import ImageComingSoon from './photos/comingsoon.png'
 import Modal from './Modal'
 
 
-const Button = styled.button`
+const Button = styled.a`
     min-width: 100px;
-    padding: 16px 32px;
     border: none;
-    background: #141414;
-    color: #fff;
-    font-size: 24px;
+    padding-left: 5px;
+    color: #888888;
     cursor: pointer;
 `
 
@@ -50,7 +48,7 @@ const Projects = () => {
                         <div className="back-side-text">
                             <h4> InstaRecipes2.0 </h4>
                             <h4> Node.js | React Hooks </h4>
-                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github | </a>
+                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github </a><span>|</span>
                             <Button onClick={() => {
                                 setShowModal(true)
                                 setDetail('instarecpies2.0')
@@ -74,7 +72,7 @@ const Projects = () => {
                         <div className="back-side-text">
                             <h4> Manage Lite </h4>
                             <h4> Ruby on Rails | React.js, Redux </h4>
-                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github | </a>
+                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github </a><span>|</span>
                             <Button onClick={() => {
                                 setDetail('managelite')
                                 setShowModal(true)
@@ -97,7 +95,7 @@ const Projects = () => {
                     <div className="back-side-text">
                             <h4> Brew Project </h4>
                             <h4> Ruby on Rails | React.js </h4>
-                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github | </a>
+                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github </a><span>|</span>
                             <Button onClick={() => {
                                 setDetail('brewproject')
                                 setShowModal(true)
@@ -120,7 +118,7 @@ const Projects = () => {
                     <div className="back-side-text">
                             <h4> InstaRecipes </h4>
                             <h4> Ruby on Rails | JavaScript </h4>
-                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github | </a>
+                            <a className="github" href="https://github.com/harrf815/phase5-frontend">Github </a><span>|</span>
                             <Button onClick={() => {
                                 setDetail('instarecipes')
                                 setShowModal(true)

@@ -17,11 +17,11 @@ const Background = styled.div`
 const ModalWrapper = styled.div`
   width: 1000px;
   height: 800px;
-
+  text-align: center;
   background: #fff;
   color: #000;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   position: relative;
   z-index: 10;
   border-radius: 10px;
@@ -54,6 +54,8 @@ const CloseModalButton = styled.button`
   padding: 0;
   z-index: 10;
   background: #fff;
+  border: none; 
+  font-size: 25px;
 `;
 
 
@@ -91,12 +93,70 @@ const Modal = ({ showModal, setShowModal, detail }) => {
 
       const renderModal = () => {
         console.log(detail)
-        if(detail === 'instarecpies2.0'){
+        if (detail === 'instarecpies2.0') {
             return (
              <div>
-               Hello
+               Coming Soon
              </div>
                 
+            )
+        } else if (detail === 'managelite') {
+            return ( 
+                <div>
+                    <div>
+                        <h1>Manage Lite</h1>
+                    </div>
+                    <br />
+                    <div>
+                        <h3>Keep track of employees schedules or create a schedule, calculate employee’s pay, and post content</h3>
+                    </div>
+                    <ul>
+                        <li>Utilized JSON Web Tokens and localStorage to store encrypted user information client-side.</li>
+                        <li>Developed a calendar to allow the user to create schedules for their employees</li>
+                        <li>Technology used react, redux, ruby on rails, and hooks</li>
+                        <li>Implemented a design to develop a design strategy that provides a user friendly experience</li>
+                    </ul>
+                </div>
+            )
+        } else if (detail === 'brewproject') {
+            return (
+                <div>
+                    <div>
+                        <h1>Brew Project</h1>
+                    </div>
+                    <br/>
+                    <div>
+                        <h3>Brewery search application, equipped with geolocation and with a searchable listings of the breweries</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Authenticated users at login by encrypting identifying account information via JWT</li>
+                            <li>Implemented Geolocation to show all the breweries located around the user’s location</li>
+                            <li>Developed Javascript, React front-end and Rails, Active Records, Postgres back-end applications</li>
+                            <li>Engineered a search engine that filters through every brewery in the US by using a few characters</li>
+                        </ul>
+                    </div>
+                </div>
+            )
+        } else if (detail === 'instarecipes') {
+            return (
+                <div>
+                    <div>
+                        <h1>InstaRecipes</h1>
+                    </div>
+                    <br/>
+                    <div>
+                        <h3>An application that allowed users to post their favorite recipes to share with the community</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Implemented a design to develop UI and UX design strategy that provides a seamless user experience</li>
+                            <li>Engineered user interface using vanilla Javascript as the front-end and Rails, Active Record as back-end</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
             )
         }
     }
