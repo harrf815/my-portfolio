@@ -7,7 +7,7 @@ const Work = () => {
     return (
         <div className="work-wapper">
             <div className="work">
-            <h2> Work Experience </h2>
+            <h1> Work Experience </h1>
             <div>
                 <h4><span className="job title">Manager</span>, Salad Makers <span className="date">February 2009 - January 2021 </span></h4>
                 <ul>

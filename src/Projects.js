@@ -26,7 +26,7 @@ const Projects = () => {
     return (
         <div>
             <div>
-                <h2>Projects</h2>
+                <h1>Projects</h1>
             </div>
             <br/>
             <br/>
