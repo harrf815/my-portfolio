@@ -5,7 +5,8 @@ import React from 'react';
 const Work = () => {
 
     return (
-        <div>
+        <div className="work-wapper">
+            <div className="work">
             <h2> Work Experience </h2>
             <div>
                 <h4><span className="job title">Manager</span>, Salad Makers <span className="date">February 2009 - January 2021 </span></h4>
@@ -39,6 +40,7 @@ const Work = () => {
                     <li>Rearranged the store every other month and promotions understanding that presentation is a key factor in sales</li>
                     <li>Promoted sales by listening what the customer wants, giving them fashion advice, and providing them with great service that they can always rely on when making decisions</li>
                 </ul>
+            </div>
             </div>
         </div>
     )

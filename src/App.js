@@ -3,10 +3,10 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 import Home from './Home'
-import About from './About'
-import Projects from './Projects'
-import Work from './Work'
-import Contact from './Contact'
+// import About from './About'
+// import Projects from './Projects'
+// import Work from './Work'
+// import Contact from './Contact'
 import Header from './Header'
 
 const App = () => {

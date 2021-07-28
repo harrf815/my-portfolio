@@ -2,16 +2,15 @@
 import React, { useCallback, useRef, useEffect } from 'react'
 import styled from 'styled-components'
 import { useSpring, animated } from 'react-spring';
+import { MdClose } from 'react-icons/md'
 
 
 const Background = styled.div`
   width: 100%;
   height: 100%;
-
   position: absolute;
   display: flex;
   justify-content: center;
-
 `;
 
 const ModalWrapper = styled.div`
@@ -24,7 +23,9 @@ const ModalWrapper = styled.div`
   grid-template-rows: 1fr 1fr;
   position: relative;
   z-index: 10;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 10px #888888;
+ 
 `;
 
 // const ModalImg = styled.img`
@@ -44,7 +45,7 @@ const ModalContent = styled.div`
   
 `;
 
-const CloseModalButton = styled.button`
+const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
   top: 20px;
@@ -68,13 +69,15 @@ const Modal = ({ showModal, setShowModal, detail }) => {
         duration: 250
       },
       opacity: showModal ? 1 : 0,
-      
+    //   transform: showModal ? `translateY(0%)` : `translateY(-100%)`
     });
+
     const closeModal = e => {
         if (modalRef.current === e.target) {
           setShowModal(false);
         }
       };
+
       const keyPress = useCallback(
         e => {
           if (e.key === 'Escape' && showModal) {
@@ -83,6 +86,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
         },
         [setShowModal, showModal]
       );
+
       useEffect(
         () => {
           document.addEventListener('keydown', keyPress);
@@ -157,6 +161,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                         </ul>
                     </div>
                 </div>
+                
             )
         }
     }

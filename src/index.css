@@ -4,19 +4,71 @@ html {
 }
 
 body {
-    color: white !important;
-    background-color: rgb(54, 54, 54) !important;
+    /* color: white !important;
+    background-color: rgb(54, 54, 54) !important; */
+    background-color: white !important;
     letter-spacing: 0.5px;
+    padding: 15px;
 }
+
+a.title.item {
+    /* color: white !important; */
+}
+
+
+/*! About */
+
+.skills-title {
+    text-align: center;
+    line-height: 1;
+    padding-top: 10px;
+    
+}
+
+.underline {
+    border-bottom: 1px solid;
+    display: inline-block;
+    width: 800px;
+    line-height: 1;
+   
+ 
+}
+
+.skills {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+ 
+}
+
+.set-1 {
+    text-align: center;
+}
+
+.set-2 {
+    text-align: center;
+}
+
+
+
 
 /*! Work */
 
-a.title.item {
-    color: white !important;
+.work-wapper {
+    box-shadow: 2px 5px 10px #888888;
 }
 
+.work {
+    padding: 10px;
+}
+
+
 h2 {
-    color: white !important;
+    /* color: white !important; */
     text-align: center;
 }
 
