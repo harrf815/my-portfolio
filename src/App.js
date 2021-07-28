@@ -16,13 +16,14 @@ const App = () => {
             <BrowserRouter>
                 <div>
                     <Header />
-                    <div className=" main ui container">
+                    <Home />
+                    {/* <div className=" main ui container">
                         <Route path="/" exact component={Home} />
                         <Route path="/about" exact component={About} />
                         <Route path="/projects" exact component={Projects} />
                         <Route path="/work" exact component={Work} /> 
                         <Route path="/contact" exact component={Contact} /> 
-                    </div>
+                    </div> */}
                 </div>
             </BrowserRouter>
         </>
