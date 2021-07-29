@@ -9,7 +9,7 @@ import Me from './photos/me.JPG'
 const About = () => {
 
     return (
-        <div>
+        <div className="about-page">
             <div>
                 <h1>About</h1>
             </div>

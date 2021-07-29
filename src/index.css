@@ -7,27 +7,52 @@ body {
     /* color: white !important;
     background-color: rgb(54, 54, 54) !important; */
     background-color: white !important;
-    letter-spacing: 0.5px;
-    padding: 15px;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+}
+
+.sections {
+    height: 80vh;
 }
 
 a.title.item {
     /* color: white !important; */
 }
 
+#header {
+    background: linear-gradient(#888888, white);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+button {
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: white;
+}
+
 
 /*! About */
 
+.about-page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
 .me {
-    width: 250px;
+    width: 300px;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    box-shadow: 2px 5px 10px #888888;
 }
 
 h2 {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .about {
@@ -36,10 +61,12 @@ h2 {
     width: 80%;
     margin: auto;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .about-image {
     display: inline-block;
+    padding-right: 20px;
     
 }
 .about-text {
@@ -96,9 +123,14 @@ h2 {
 
 /*! Work */
 
+.work-page {
+    padding: 80px 15px 100px 15px;
+}
+
 
 .work-wapper {
     box-shadow: 2px 5px 10px #888888;
+    padding: 20px;
 }
 
 .work {
@@ -122,6 +154,11 @@ span.job.title {
 
 /*! Projects */
 
+.project-page {
+    padding: 50px 15px 0px 15px;
+    justify-content: center;
+}
+
 .project-title {
     display: inline-block;
 }
@@ -129,6 +166,7 @@ span.job.title {
 .card {
     display: inline-block;
     padding: 10px;
+    position: relative;
 }
 
 .front-side {
@@ -146,9 +184,20 @@ span.job.title {
     color: black !important;
 }
 
-.github {
+.github-card {
     margin-left: 10px;
     color: #888888;
     display: inline-block;
     padding-right: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+}
+
+.footer-details {
+    padding-top: 50px;
 }

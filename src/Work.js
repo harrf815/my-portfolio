@@ -5,6 +5,7 @@ import React from 'react';
 const Work = () => {
 
     return (
+        <div className="work-page">
         <div className="work-wapper">
             <div className="work">
             <h1> Work Experience </h1>
@@ -42,6 +43,7 @@ const Work = () => {
                 </ul>
             </div>
             </div>
+        </div>
         </div>
     )
 }
