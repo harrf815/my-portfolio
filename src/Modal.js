@@ -18,8 +18,8 @@ const Background = styled.div`
 `
 
 const ModalWrapper = styled.div`
-   width: 1000px;
-   height: 700px;
+   width: 1050px;
+   height: 850px;
    text-align: center;
    background: #fff;
    color: #000;

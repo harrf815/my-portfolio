@@ -6,7 +6,7 @@ const Footer = () => {
          <div className="footer-details">
             <div>
                <h2>Harrf Akbar</h2>
-               <a style={{ color: "black", marginBottom: "10px"}} href="mailto:harrf_akbar@yahoo.com">harrf_akbar@yahoo.com</a>
+               <a style={{ color: "white", marginBottom: "10px"}} href="mailto:harrf_akbar@yahoo.com">harrf_akbar@yahoo.com</a>
             </div>
             <div className="about-icon">
                <a id="about-icon" href="https://github.com/harrf815">
