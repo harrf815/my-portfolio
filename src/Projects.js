@@ -70,7 +70,7 @@ const Projects = () => {
                <BackSide className="back-side">
                   <div className="back-side-text">
                      <h4> Manage Lite </h4>
-                     <h4> Ruby on Rails | React.js, Redux </h4>
+                     <h4> Ruby on Rails | React Hooks, Redux </h4>
                      <a className="github-card" href="https://github.com/harrf815/phase5-frontend">
                         <i className="github square icon"></i>Github{" "}
                      </a>

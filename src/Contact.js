@@ -15,32 +15,32 @@ const Contact = () => {
          <div className="contact-icons">
             <IconContext.Provider value={{ color: "black" }}>
                <a id="c-icon" href="mailto:harrf_akbar@yahoo.com">
-                  <MdEmail /> Email
+                  <MdEmail /> 
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#4267B2" }}>
                <a id="c-icon" href="https://www.facebook.com/harrf.akbar/">
-                  <ImFacebook2 /> Facebook
+                  <ImFacebook2 /> 
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#1DA1F2" }}>
                <a id="c-icon" href="https://twitter.com/harrfakbar">
-                  <ImTwitter /> Twitter
+                  <ImTwitter /> 
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#833AB4" }}>
                <a id="c-icon" href="https://www.instagram.com/harrfakbar/">
-                  <RiInstagramFill /> Instagram
+                  <RiInstagramFill /> 
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#211F1F" }}>
                <a id="c-icon" href="https://github.com/harrf815">
-                  <ImGithub />
+                  <ImGithub /> 
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#0e76a8" }}>
                <a id="c-icon" href="https://www.linkedin.com/in/harrf-akbar-a99454172/">
-                  <FaLinkedin />
+                  <FaLinkedin /> 
                </a>
             </IconContext.Provider>
          </div>

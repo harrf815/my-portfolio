@@ -9,6 +9,7 @@ body {
     background-color: white !important;
     letter-spacing: 0.6px;
     font-size: 16px;
+    
 }
 
 .sections {
@@ -218,6 +219,11 @@ span.job.title {
     padding-right: 5px;
 }
 
+.modal-images {
+    width: 250px;
+    padding: 10px;
+}
+
 /*! Contact */
 
 .contact-page {
@@ -227,7 +233,7 @@ span.job.title {
 .contact-icons {
     padding-top: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     
 }
 
@@ -238,7 +244,7 @@ span.job.title {
 #c-icon {
     color: black;
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
    
 }
 
