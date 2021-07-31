@@ -7,12 +7,16 @@ import { ImFacebook2, ImTwitter, ImGithub } from "react-icons/im"
 import { RiInstagramFill } from "react-icons/ri"
 import { FaLinkedin } from "react-icons/fa"
 
+import Blog from './Blog'
+
 const Contact = () => {
 
    return (
       <div className="contact-p">
+         <Blog/>
          <div className="contact-page">
-            <h1>Contact</h1>
+            <h1 className="contact-title">CONTACT</h1>
+            <div className="line"></div>
          </div>
          <div className="contact-icons">
             <IconContext.Provider value={{ color: "black" }}>
@@ -48,7 +52,6 @@ const Contact = () => {
          </div>
          <div>
             <h2 className="thank-you"> Thank You for Visiting!</h2>
-          
          </div>
       </div>
    )

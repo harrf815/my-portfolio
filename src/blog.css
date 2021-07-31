@@ -1,0 +1,51 @@
+
+.blog-page {
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    padding: 0px 0 50px 0;
+    font-family: "Raleway" !important;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+div.blog-card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px white;
+    position: relative;
+    display: inline-block;
+    margin: -30px 10px 10px 10px;
+    background-color: white;
+}
+
+.blog-image {
+    width: 300px;
+    height: 250px;
+}
+
+.b-text {
+    color: #616161;
+    float: left;
+    margin-bottom: 5px !important;
+}
+
+.blog-text {
+    float: left;
+    font-size: 13px;
+    color: #616161 !important;
+}
+
+.blog-title {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 8px !important;
+    
+    
+}
+
+.blog-date {
+    font-size: 11px;
+
+}

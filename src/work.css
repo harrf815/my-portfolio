@@ -26,9 +26,22 @@ h1, h3{
 }
 
 .date {
-    margin-left: 650px;
+    float: right;
 }
 
 span.job.title {
     font-style: italic;
+}
+
+.ed-wrapper {
+    box-shadow: 2px 2px 15px white;
+    padding: 0px;
+}
+
+.education {
+    padding: 0px 30px 15px 30px;
+}
+
+.ed-content {
+    margin-top: 30px;
 }

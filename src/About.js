@@ -19,7 +19,7 @@ const About = () => {
    return (
       <div className="about-page">
          <div>
-            <h1>About</h1>
+            <h1>ABOUT</h1>
             <div className="line"></div>
          </div>
          <div className="about-s">

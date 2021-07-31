@@ -25,7 +25,8 @@ const Projects = () => {
    return (
       <div className="project-page">
          <div>
-            <h1>Projects</h1>
+            <h1>PROJECTS</h1>
+            <div className="line"></div>
          </div>
          <div id="card1" className="card">
             <Modal showModal={showModal} setShowModal={setShowModal} detail={detail} />
@@ -121,7 +122,7 @@ const Projects = () => {
             </Flippy>
          </div>
 
-         <div id="card4"  className="card">
+         <div id="card4" className="card">
             <Flippy flipOnHover={true} style={{ width: "350px", height: "300px" }}>
                <FrontSide
                   className="front-side"
