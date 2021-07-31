@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useEffect } from "react"
 import styled from "styled-components"
-import { useSpring, animated } from "react-spring"
+
 import { MdClose } from "react-icons/md"
 
 import MGphoto1 from "./photos/Screen Shot 2021-07-30 at 5.47.18 PM.png"
@@ -21,6 +21,7 @@ const ModalWrapper = styled.div`
    width: 1050px;
    height: 850px;
    text-align: center;
+   margin-left: 800px;
    background: #fff;
    color: #000;
    display: grid;
@@ -64,13 +65,7 @@ const CloseModalButton = styled(MdClose)`
 const Modal = ({ showModal, setShowModal, detail }) => {
    const modalRef = useRef()
 
-   const animation = useSpring({
-      config: {
-         duration: 250,
-      },
-      opacity: showModal ? 1 : 0,
-      //   transform: showModal ? `translateY(0%)` : `translateY(-100%)`
-   })
+
 
    const closeModal = (e) => {
       if (modalRef.current === e.target) {
@@ -266,7 +261,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
       <>
          {showModal ? (
             <Background onClick={closeModal} ref={modalRef}>
-               <animated.div style={animation}>
+               
                   <ModalWrapper>
                      <ModalContent>
                         {renderModal()}
@@ -275,7 +270,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                         ></CloseModalButton>
                      </ModalContent>
                   </ModalWrapper>
-               </animated.div>
+               
             </Background>
          ) : null}
       </>
