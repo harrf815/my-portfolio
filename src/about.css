@@ -1,0 +1,187 @@
+div.about-page {
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.me {
+    width: 300px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+.about {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.about-image {
+    display: inline-block;
+    padding-right: 20px;
+    animation: slideimage 1s linear;   
+}
+/* @keyframes slideimage {
+        from {margin-right: -2000px;}
+        to {margin-right: 0px;}
+} */
+.about-text {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    min-width: 300px;
+
+   
+    
+}
+
+.about-icon {
+    padding-bottom: 10px;
+    animation: slide 5s linear;
+   
+} 
+
+
+@keyframes slide {
+    from {margin-right: -5000px;}
+    to {margin-right: 0px;}
+}
+
+@keyframes slidename {
+    from {margin-right: -3000px;}
+    to {margin-right: 0px;}
+}
+
+#hello {
+    font-size: 35px;
+    margin-right: 500px;
+    animation: hello 2s linear;
+}
+
+@keyframes hello {
+    from {margin-left: 100%;}
+    to {margin-left: 0px;}
+}
+
+#name-is {
+    font-size: 35px;
+    margin-right: 300px;
+    animation: name-is 3s linear;
+}
+
+@keyframes name-is {
+    from {margin-right: -3000px;}
+    to {margin-left: 0px;}
+}
+
+#name {
+    font-size: 38px;
+    margin-bottom: 5px;
+    animation: slidename 4s linear;
+}
+
+.about-s {
+    width: 100%;
+    min-width: 300px;
+}
+
+#about-icon {
+    color: white;
+}
+
+.skills-title {
+    text-align: center;
+    line-height: 1;
+    padding-top: 10px;
+    
+}
+
+.underline {
+    border-bottom: 1px solid;
+    display: inline-block;
+    width: 800px;
+    line-height: 1;
+    width: 100%;
+    min-width: 300px;
+    color: #888888;
+    padding: 0px 0 15px 0;
+}
+
+.underline1 {
+    border-bottom: 1px solid;
+    display: inline-block;
+    width: 800px;
+    line-height: 1;
+    width: 100%;
+    min-width: 300px;
+    padding: 0px 0 15px 0;
+}
+
+.skills {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+ 
+}
+
+.skill-icon1 {
+    text-align: center;
+    animation: set-1 3s ease;
+}
+.skill-icon2 {
+    text-align: center;
+    animation: set-1 4s ease;
+}
+.skill-icon3 {
+    text-align: center;
+    animation: set-1 5s ease;
+}
+.skill-icon4 {
+    text-align: center;
+    animation: set-1 6s ease;
+}
+.skill-icon5 {
+    text-align: center;
+    animation: set-1 7s ease;
+}
+.skill-icon6 {
+    text-align: center;
+    animation: set-1 3s ease;
+}
+.skill-icon7 {
+    text-align: center;
+    animation: set-1 4s ease;
+}
+.skill-icon8 {
+    text-align: center;
+    animation: set-1 5s ease;
+}
+.skill-icon9 {
+    text-align: center;
+    animation: set-1 6s ease;
+}
+.skill-icon10 {
+    text-align: center;
+    animation: set-1 7s ease;
+}
+
+
+
+@keyframes set-1 {
+    from {margin-bottom: 3000px;}
+    to {margin-bottom: 0px;}
+}
+

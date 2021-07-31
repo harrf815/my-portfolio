@@ -1,4 +1,6 @@
 import React from "react"
+import './about.css'
+
 import { IconContext } from "react-icons/lib"
 import { FaReact, FaHtml5, FaAngular } from "react-icons/fa"
 import {
@@ -18,6 +20,7 @@ const About = () => {
       <div className="about-page">
          <div>
             <h1>About</h1>
+            <div className="line"></div>
          </div>
          <div className="about-s">
             <div className="about">
@@ -55,7 +58,7 @@ const About = () => {
          </div>
          <div className="skills-title">
             <h3>
-               <span className="underline">Technical Skills</span>
+               <span className="underline1">Technical Skills</span>
             </h3>
          </div>
          <div className="skills">

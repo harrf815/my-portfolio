@@ -1,19 +1,23 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Lucida Console", "Courier New", monospace;
+    
     margin: 0px;
     
 }
 
-body {
+ 
+ body {
     color: white !important;
     background-color: white !important;
     letter-spacing: 0.6px;
     font-size: 16px;
-    font-family: "Lucida Console", "Courier New", monospace !important;
+    font-family: "Raleway" !important;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
     overflow: auto;
     height: 100%;
+
     
     margin: 0px;
     z-index: 100 !important;
@@ -21,7 +25,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Raleway !important;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .sections {
@@ -30,10 +36,7 @@ h1, h2, h3, h4 {
     min-width: 300px;
 }
 
-.about-s {
-    width: 100%;
-    min-width: 300px;
-}
+
 
 #contact {
     height: 50vh;
@@ -41,12 +44,16 @@ h1, h2, h3, h4 {
 
 a.title.item {
     /* color: white !important; */
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Raleway !important;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
     font-weight: bold;
 }
 
 p.title.item {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Raleway !important;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -69,308 +76,6 @@ button :hover {
     background-color: white;
 }
 
-
-/*! About */
-
-div.about-page {
-    margin-top: 100px;
-    padding-top: 60px;
-    padding-bottom: 100px;
-    width: 100%;
-    min-width: 300px;
-}
-
-.me {
-    width: 300px;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    box-shadow: 2px 2px 15px white;
-}
-
-
-.about {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 80%;
-    margin: auto;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-.about-image {
-    display: inline-block;
-    padding-right: 20px;
-    animation: slideimage 1s linear;   
-}
-@keyframes slideimage {
-        from {margin-right: -2000px;}
-        to {margin-right: 0px;}
-}
-.about-text {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    min-width: 300px;
-
-   
-    
-}
-
-.about-icon {
-    padding-bottom: 10px;
-    animation: slide 5s linear;
-   
-} 
-
-
-@keyframes slide {
-    from {margin-right: -5000px;}
-    to {margin-right: 0px;}
-}
-
-@keyframes slidename {
-    from {margin-right: -3000px;}
-    to {margin-right: 0px;}
-}
-
-#hello {
-    font-size: 35px;
-    margin-right: 500px;
-    animation: hello 2s linear;
-}
-
-@keyframes hello {
-    from {margin-right: -3000px;}
-    to {margin-right: 0px;}
-}
-
-#name-is {
-    font-size: 35px;
-    margin-right: 300px;
-    animation: name-is 3s linear;
-}
-
-@keyframes name-is {
-    from {margin-right: -3000px;}
-    to {margin-right: 0px;}
-}
-
-#name {
-    font-size: 38px;
-    margin-bottom: 5px;
-    animation: slidename 4s linear;
-}
-
-#about-icon {
-    color: white;
-}
-
-.skills-title {
-    text-align: center;
-    line-height: 1;
-    padding-top: 10px;
-    
-}
-
-.underline {
-    border-bottom: 1px solid;
-    display: inline-block;
-    width: 800px;
-    line-height: 1;
-     width: 100%;
-    min-width: 300px;
-   
- 
-}
-
-.skills {
-    font-size: 18px;
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
- 
-}
-
-.skill-icon1 {
-    text-align: center;
-    animation: set-1 3s ease;
-}
-.skill-icon2 {
-    text-align: center;
-    animation: set-1 4s ease;
-}
-.skill-icon3 {
-    text-align: center;
-    animation: set-1 5s ease;
-}
-.skill-icon4 {
-    text-align: center;
-    animation: set-1 6s ease;
-}
-.skill-icon5 {
-    text-align: center;
-    animation: set-1 7s ease;
-}
-.skill-icon6 {
-    text-align: center;
-    animation: set-1 3s ease;
-}
-.skill-icon7 {
-    text-align: center;
-    animation: set-1 4s ease;
-}
-.skill-icon8 {
-    text-align: center;
-    animation: set-1 5s ease;
-}
-.skill-icon9 {
-    text-align: center;
-    animation: set-1 6s ease;
-}
-.skill-icon10 {
-    text-align: center;
-    animation: set-1 7s ease;
-}
-
-
-
-@keyframes set-1 {
-    from {margin-bottom: 3000px;}
-    to {margin-bottom: 0px;}
-}
-
-
-
-
-/*! Work */
-
-.work-page {
-    padding: 80px 15px 80px 15px;
-
-}
-
-
-.work-wapper {
-    box-shadow: 2px 2px 15px white;
-    padding: 20px;
-}
-
-.work {
-    padding: 10px;
-}
-
-h1 {
-    font-size: 45px;
-}
-
-
-h1, h3{
-    /* color: white !important; */
-    text-align: center;
-    padding: 30px;
-     width: 100%;
-    min-width: 300px;
-}
-
-.date {
-    margin-left: 650px;
-}
-
-span.job.title {
-    font-style: italic;
-}
-
-/*! Projects */
-
-.project-page {
-    padding: 50px 15px 0px 15px;
-    justify-content: center;
-}
-
-.project-title {
-    display: inline-block;
-}
-
-.card {
-    display: inline-block;
-    padding: 10px;
-    position: relative;
-    
-}
-
-.flippy-card.flippy-front.front-side {
-    box-shadow: 2px 2px 15px white;
-}
-
-.front-side {
-    border-radius: 25px;
-    
-}
-
-.back-side {
-    background-color: white !important;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.back-side-text {
-    margin-top: 25%;
-    color: black !important;
-}
-
-.github-card {
-    margin-left: 10px;
-    color: #888888;
-    display: inline-block;
-    padding-right: 5px;
-}
-
-.modal-images {
-    width: 250px;
-    padding: 10px;
-}
-
-/*! Contact */
-
-.contact-page {
-    margin-top: -120px;
-    min-height: fit-content
-}
-
-.contact-icons {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 40px;
-    
-}
-
-#c-icon:hover {
-    opacity: 0.3;
-}
-
-#c-icon {
-    color: black;
-    display: inline-block;
-    padding: 15px;
-}
-
-path { 
-    box-shadow: 2px 2px 15px white;
-    border: none;
-}
-
-.thank-you {
-    text-align: center;
-    padding-top: 150px;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 /*! Footer  */
 
 .footer {
@@ -385,13 +90,43 @@ path {
     padding-top: 50px;
 }
 
+.slide {
+    width: 750px;
+    height: 500px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    border-bottom: black;
+}
+
+.slider-wrapper.axis-horizontal {
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+.line {
+    border-bottom: 5px solid ;
+    width: 70px;
+    margin: -30px auto 100px auto;
+    animation: line 2s ease;
+    
+}
+
+@keyframes line {
+    from {margin-left: 100%;}
+    to {margin-left: 47.5%;}
+}
+
+/*! Background */
+
 html, body {
   width: 100%;
   height:100%;
 }
 
 body {
-    background: linear-gradient(-45deg, #b4b1b0, #6b6c70, #5e7392, #0958cf);
+    background: linear-gradient(-45deg, #7e7e81, #15161b, #768fb4, #0f9b3e);
     background-size: 500% 500%;
     animation: gradient 10s ease infinite;
 }
@@ -407,3 +142,5 @@ body {
         background-position: 0% 50%;
     }
 }
+
+

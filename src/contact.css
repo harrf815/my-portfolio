@@ -1,0 +1,33 @@
+.contact-page {
+    margin-top: -120px;
+    min-height: fit-content
+}
+
+.contact-icons {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#c-icon:hover {
+    opacity: 0.3;
+}
+
+#c-icon {
+    color: black;
+    display: inline-block;
+    padding: 15px;
+}
+
+path { 
+    box-shadow: 2px 2px 15px white;
+    border: none;
+}
+
+.thank-you {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+}

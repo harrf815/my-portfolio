@@ -1,4 +1,6 @@
 import React from "react"
+import './contact.css'
+
 import { IconContext } from "react-icons/lib"
 import { MdEmail } from "react-icons/md"
 import { ImFacebook2, ImTwitter, ImGithub } from "react-icons/im"
@@ -15,37 +17,38 @@ const Contact = () => {
          <div className="contact-icons">
             <IconContext.Provider value={{ color: "black" }}>
                <a id="c-icon" href="mailto:harrf_akbar@yahoo.com">
-                  <MdEmail /> 
+                  <MdEmail />
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#4267B2" }}>
                <a id="c-icon" href="https://www.facebook.com/harrf.akbar/">
-                  <ImFacebook2 /> 
+                  <ImFacebook2 />
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#1DA1F2" }}>
                <a id="c-icon" href="https://twitter.com/harrfakbar">
-                  <ImTwitter /> 
+                  <ImTwitter />
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#833AB4" }}>
                <a id="c-icon" href="https://www.instagram.com/harrfakbar/">
-                  <RiInstagramFill /> 
+                  <RiInstagramFill />
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#211F1F" }}>
                <a id="c-icon" href="https://github.com/harrf815">
-                  <ImGithub /> 
+                  <ImGithub />
                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ color: "#0e76a8" }}>
                <a id="c-icon" href="https://www.linkedin.com/in/harrf-akbar-a99454172/">
-                  <FaLinkedin /> 
+                  <FaLinkedin />
                </a>
             </IconContext.Provider>
          </div>
          <div>
             <h2 className="thank-you"> Thank You for Visiting!</h2>
+          
          </div>
       </div>
    )

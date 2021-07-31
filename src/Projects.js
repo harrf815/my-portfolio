@@ -1,4 +1,6 @@
 import React, { useState } from "react"
+import './projects.css'
+
 import Flippy, { FrontSide, BackSide } from "react-flippy"
 import styled from "styled-components"
 
