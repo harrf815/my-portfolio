@@ -11,6 +11,9 @@ import BWphoto1 from "./photos/Screen Shot 2021-07-30 at 5.23.15 PM.png"
 import BWphoto2 from "./photos/Screen Shot 2021-07-30 at 5.23.37 PM.png"
 import INphoto1 from "./photos/Screen Shot 2021-07-31 at 9.56.50 PM.png"
 import INphoto2 from "./photos/Screen Shot 2021-07-31 at 9.57.07 PM.png"
+import BRphoto1 from "./photos/Screen Shot 2021-08-01 at 12.09.17 PM.png"
+import BRphoto2 from "./photos/Screen Shot 2021-08-01 at 12.11.29 PM.png"
+import BRphoto3 from "./photos/Screen Shot 2021-08-01 at 12.10.41 PM.png"
 
 const Background = styled.div`
    width: 100%;
@@ -209,13 +212,13 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                   <div>
                      <p style={{ padding: "0px 15px 0px 15px" }}>
                         Welcome to Manage Lite an application for business owners. The purpose of
-                        this application is to help reduce the workload of a manager. This applicationm
-                        helps the user to make schedules
-                        and post it on the site. The app also allows the employees to sign up on the application
-                        and view their schedules online. The admin is also able to calculate an
-                        employees's hour to determine their pay for the week. Employees are able to
-                        commuicate with their colleagues, post messages to see if someone can cover
-                        a shift or even letting their manager know what days they are available.
+                        this application is to help reduce the workload of a manager. This
+                        applicationm helps the user to make schedules and post it on the site. The
+                        app also allows the employees to sign up on the application and view their
+                        schedules online. The admin is also able to calculate an employees's hour to
+                        determine their pay for the week. Employees are able to commuicate with
+                        their colleagues, post messages to see if someone can cover a shift or even
+                        letting their manager know what days they are available.
                      </p>
                   </div>
                   <ul>
@@ -361,9 +364,9 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                         }}
                      >
                         <span className="underline">
-                        Technology: Javascript | Ruby on Rails | ActiveRecords | PostgreSQL |
+                           Technology: Javascript | Ruby on Rails | ActiveRecords | PostgreSQL |
                            Semantic-UI{" "}
-                           </span>
+                        </span>
                      </p>
                   </div>
                   <p style={{ padding: "0px 15px 0px 15px" }}>
@@ -389,7 +392,83 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                </div>
             </div>
          )
+      } else if (detail === "bookraiders") {
+         return (
+            <div>
+               <div className="slide">
+                  <Carousel
+                     autoPlay={true}
+                     axis="horizontal"
+                     infiniteLoop={true}
+                     showThumbs={false}
+                     showStatus={false}
+                     showIndicators={false}
+                  >
+                     <div>
+                        <img className="modal-images" src={BRphoto1} alt="bookraiders" />
+                     </div>
+                     <div>
+                        <img className="modal-images" src={BRphoto2} alt="bookraiders" />
+                     </div>
+                     <div>
+                        <img className="modal-images" src={BRphoto3} alt="bookraiders" />
+                     </div>
+                  </Carousel>
+               </div>
+               <div>
+                  <h5
+                     style={{
+                        fontSize: "20px",
+                        float: "left",
+                        padding: "15px 0px 0px 15px",
+                        marginRight: "600px",
+                     }}
+                  >
+                     Book Raiders
+                  </h5>
+               </div>
+               <br />
+               <div>
+                  <div>
+                     <p
+                        style={{
+                           float: "left",
+                           padding: "3px 15px 5px 15px",
+                           fontWeight: "bold",
+                           marginRight: "370px",
+                        }}
+                     >
+                        <span className="underline">
+                           Technology: Ruby on Rails | ActiveRecords | HTML | CSS
+                        </span>
+                     </p>
+                  </div>
+                  <p style={{ padding: "0px 15px 0px 15px" }}>
+                     A ruby on rails application that uses an open api database of a list of books.
+                     Users are able to create an account and post reviews of books they have read.
+                     Users are able to view other books and see their average rating and all he
+                     reviews written by other users.
+                  </p>
+               </div>
+               <div>
+                  <ul>
+                     <li>
+                        Engineered user interface using strictly Ruby on Rails and ActiveRecords
+                     </li>
+                     <li>
+                        Developed an application using JWT and Rails to secure an authentication
+                        users{" "}
+                     </li>
+                     <li>
+                        Implemented a design to develop UI and UX design strategy that provides a
+                        seamless user experience
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         )
       }
+
    }
 
    return (

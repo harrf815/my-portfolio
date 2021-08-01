@@ -8,6 +8,7 @@ import ImageManageLite from "./photos/managelite.png"
 import ImageBrewProject from "./photos/brewproject.png"
 import ImageInstaRecipes from "./photos/instarecipes.png"
 import ImageComingSoon from "./photos/comingsoon.png"
+import ImageBookRadiers from "./photos/Screen Shot 2021-08-01 at 12.09.03 PM.png"
 import Modal from "./Modal"
 
 const Button = styled.a`
@@ -143,6 +144,37 @@ const Projects = () => {
                      <Button
                         onClick={() => {
                            setDetail("instarecipes")
+                           setShowModal(true)
+                        }}
+                     >
+                        Details
+                     </Button>
+                  </div>
+               </BackSide>
+            </Flippy>
+         </div>
+
+         <div id="card5" className="card">
+            <Flippy flipOnHover={true} style={{ width: "350px", height: "300px" }}>
+               <FrontSide
+                  className="front-side"
+                  style={{
+                     backgroundImage: `url("${ImageBookRadiers}")`,
+                     backgroundRepeat: "no-repeat",
+                     backgroundSize: "cover",
+                  }}
+               ></FrontSide>
+               <BackSide className="back-side">
+                  <div className="back-side-text">
+                     <h4> Book Raiders </h4>
+                     <h4> Ruby on Rails | ActiveRecords </h4>
+                     <a className="github-card" href="https://github.com/harrf815/book-raiders">
+                        <i className="github square icon"></i>Github{" "}
+                     </a>
+                     <span>|</span>
+                     <Button
+                        onClick={() => {
+                           setDetail("bookraiders")
                            setShowModal(true)
                         }}
                      >
