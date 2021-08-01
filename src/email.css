@@ -1,0 +1,35 @@
+
+
+form {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.form-control {
+    background-color: #1e242c;
+    color: #fff;
+    outline: none; 
+    width: 500px;
+    border: none;
+    height: 30px;
+    padding: 20px; 
+    margin-bottom: 10px;
+}
+
+.message {
+    height: 180px;
+}
+
+.email-button {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+}
+
+.email-button:hover {
+    color: white;
+    opacity: 0.3;
+}

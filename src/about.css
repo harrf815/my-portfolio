@@ -30,10 +30,7 @@ div.about-page {
     padding-right: 20px;
     animation: slideimage 1s linear;   
 }
-/* @keyframes slideimage {
-        from {margin-right: -2000px;}
-        to {margin-right: 0px;}
-} */
+
 .about-text {
     display: inline-block;
     text-align: center;
@@ -87,6 +84,7 @@ div.about-page {
     font-size: 38px;
     margin-bottom: 5px;
     animation: slidename 4s linear;
+    color: #0f84f1;
 }
 
 .about-s {

@@ -1,7 +1,9 @@
 import React from "react"
 import emailjs from "emailjs-com"
 
-class Contact extends React.Component {
+import './email.css'
+
+class Email extends React.Component {
    sendEmail = (e) => {
       e.preventDefault()
 
@@ -24,45 +26,43 @@ class Contact extends React.Component {
          <div>
             <div className="container">
                <form onSubmit={this.sendEmail}>
-                  <div>
+                  <div className="email-form">
                      <div>
                         <input
-                           type="text"
-                           className="form-contorl"
+                           type="textarea"
+                           className="form-control"
                            placeholder="Name"
                            name="name"
                         />
                      </div>
                      <div>
                         <input
-                           type="text"
-                           className="form-contorl"
+                           type="textarea"
+                           className="form-control"
                            placeholder="Email Address"
                            name="email"
                         />
                      </div>
                      <div>
                         <input
-                           type="text"
-                           className="form-contorl"
+                           type="textarea"
+                           className="form-control"
                            placeholder="Subject"
                            name="subject"
                         />
                      </div>
                      <div>
-                        <input
-                           type="text"
-                           className="form-contorl"
+                        <textarea
+                           type="textarea"
+                           className="form-control message"
                            placeholder="Message"
                            name="message"
                         />
                      </div>
                      <div>
-                        <input type="submit" className="btn btn-info" value="Send Message" />
+                        <input type="submit" className="email-button" value="Send Message" />
                      </div>
-                     <div>
-                        <a href="mailto:harrf_akbar@yahoo.com">Email Me</a>
-                     </div>
+                     
                   </div>
                </form>
             </div>
@@ -70,4 +70,4 @@ class Contact extends React.Component {
       )
    }
 }
-export default Contact
+export default Email; 

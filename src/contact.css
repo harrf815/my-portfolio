@@ -1,6 +1,6 @@
 .contact-page {
-    margin-top: -120px;
-    min-height: fit-content
+    min-height: fit-content;
+    padding-bottom: 150px;
 }
 
 .contact-title {
@@ -27,6 +27,7 @@
 path { 
     box-shadow: 2px 2px 15px white;
     border: none;
+   
 }
 
 .thank-you {
