@@ -143,7 +143,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                      known recipes to share with the community. User can simply fill out a form that
                      requires a name, the recipe, and an image for the user to share their favorite
                      dish. With 2.0 users are able to create an account to post their recipes and
-                     even edit their recipes.
+                     even edit or delete their recipes.
                   </p>
                </div>
                <ul>
@@ -209,9 +209,9 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                   <div>
                      <p style={{ padding: "0px 15px 0px 15px" }}>
                         Welcome to Manage Lite an application for business owners. The purpose of
-                        this application is to make a manager/owner known as admins management
-                        exoerince a lot easier. This application help the user to make a schedule
-                        and post on the site that always the employees to sign up on the application
+                        this application is to help reduce the workload of a manager. This applicationm
+                        helps the user to make schedules
+                        and post it on the site. The app also allows the employees to sign up on the application
                         and view their schedules online. The admin is also able to calculate an
                         employees's hour to determine their pay for the week. Employees are able to
                         commuicate with their colleagues, post messages to see if someone can cover
@@ -288,7 +288,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                <div>
                   <p style={{ padding: "0px 15px 0px 15px" }}>
                      Brew Project is a search application. That allows the user to explore hundreds
-                     of brewies from all over the United States, brought by the opne brewery
+                     of breweries from all over the United States, brought by the an open brewery
                      database API. A user can view all by state, search using one of the search
                      bars, or find one on the map-box provided map. As a user you can even drop a
                      review after visiting so other users know what's up!
