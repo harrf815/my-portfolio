@@ -1,23 +1,24 @@
 
 .blog-page {
-    justify-content: center;
-    align-items: center;
     margin: 50px auto 0px auto;
     padding: 0px 0 50px 0;
     font-family: "Raleway" !important;
     font-variant: normal;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
+    
     
 }
 
-div.blog-card {
+.blog-card {
     width: 300px;
     height: 400px;
     box-shadow: 0px 0px 10px white;
     position: relative;
     display: inline-block;
-    margin: -30px 10px 10px 10px;
+    margin: -30px 10px 50px 20px;
     background-color: white;
+    
 }
 
 div.blog-card:hover {
@@ -31,25 +32,28 @@ div.blog-card:hover {
 
 .b-text {
     color: #616161;
-    float: left;
+    float: left !important;
     margin-bottom: 5px !important;
 }
 
 .blog-text {
-    float: left;
+    float: left !important;
     font-size: 13px;
     color: #616161 !important;
+   
 }
 
 .blog-title {
     font-weight: bolder;
     font-size: 18px;
     margin-bottom: 8px !important;
-    
-    
+    float: left !important;
+    padding-left: 5px;
+ 
 }
 
 .blog-date {
     font-size: 11px;
-
+    float: left !important;
+    padding-left: 5px; 
 }

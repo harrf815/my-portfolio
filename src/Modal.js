@@ -9,30 +9,28 @@ import MGphoto2 from "./photos/Screen Shot 2021-07-30 at 5.47.55 PM.png"
 import MGphoto3 from "./photos/Screen Shot 2021-07-30 at 5.48.08 PM.png"
 import BWphoto1 from "./photos/Screen Shot 2021-07-30 at 5.23.15 PM.png"
 import BWphoto2 from "./photos/Screen Shot 2021-07-30 at 5.23.37 PM.png"
+import INphoto1 from "./photos/Screen Shot 2021-07-31 at 9.56.50 PM.png"
+import INphoto2 from "./photos/Screen Shot 2021-07-31 at 9.57.07 PM.png"
 
 const Background = styled.div`
    width: 100%;
    height: 100%;
    position: absolute;
    display: flex;
-   justify-content: center;
    min-width: 300px;
 `
 
 const ModalWrapper = styled.div`
    width: 750px;
    height: 800px;
-   min-width: 300px;
-   align-items: center;
-   text-align: left;
-   margin-left: 800px;
+   
+   text-align: left; 
    background: #fff;
    color: #000;
    display: grid;
    grid-template-rows: 1fr 1fr;
-   position: absolute;
+   position: relative;
    z-index: 10;
-
    box-shadow: 0px 0px 10px #888888;
    font-size: 12px;
 `
@@ -40,8 +38,6 @@ const ModalWrapper = styled.div`
 const ModalContent = styled.div`
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
    line-height: 1.8;
    color: #141414;
 `
@@ -101,13 +97,13 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                      showIndicators={false}
                   >
                      <div>
-                        <img className="modal-images" src={MGphoto1} alt="managelite" />
+                        <img className="modal-images" src="" alt="managelite" />
                      </div>
                      <div>
-                        <img className="modal-images" src={MGphoto2} alt="managelite" />
+                        <img className="modal-images" src="" alt="managelite" />
                      </div>
                      <div>
-                        <img className="modal-images" src={MGphoto3} alt="managelite" />
+                        <img className="modal-images" src="" alt="managelite" />
                      </div>
                   </Carousel>
                </div>
@@ -334,10 +330,10 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                      showIndicators={false}
                   >
                      <div>
-                        <img className="modal-images" src={BWphoto1} alt="brew project" />
+                        <img className="modal-images" src={INphoto1} alt="instarecipes" />
                      </div>
                      <div>
-                        <img className="modal-images" src={BWphoto2} alt="brew project" />
+                        <img className="modal-images" src={INphoto2} alt="instarecipes" />
                      </div>
                   </Carousel>
                </div>
@@ -400,7 +396,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
       <>
          {showModal ? (
             <Background onClick={closeModal} ref={modalRef}>
-               
+               <div style={{ textAlign: "center", marginRight: "auto", marginLeft: "auto" }} >
                   <ModalWrapper>
                      <ModalContent>
                         {renderModal()}
@@ -409,7 +405,7 @@ const Modal = ({ showModal, setShowModal, detail }) => {
                         ></CloseModalButton>
                      </ModalContent>
                   </ModalWrapper>
-               
+               </div>
             </Background>
          ) : null}
       </>

@@ -55,7 +55,7 @@ const Blog = () => {
                    className="b-text"
                    href="https://harrf-akbar.medium.com/the-love-and-the-struggle-of-java-26eefb8587de"
                 >
-                   <p className="blog-title">The Love and the Struggle of JavaScript</p>
+                   <p style={{ marginRight: "25px" }} className="blog-title">The Love and the Struggle of JavaScript</p>
                    <p className="blog-date"> March 15, 2021</p>
                    <p className="blog-text">
                       Going into my first vanilla JavaScript project was one of the most exciting
@@ -71,7 +71,7 @@ const Blog = () => {
                    className="b-text"
                    href="https://harrf-akbar.medium.com/the-basics-of-building-an-app-e198884644d7"
                 >
-                   <p className="blog-title">LifeCycle Components</p>
+                   <p style={{ marginRight: "50px" }} className="blog-title">LifeCycle Components</p>
                    <p className="blog-date"> March 29, 2021</p>
                    <p className="blog-text">
                       When you have a beginning there is always an ending in almost every way you

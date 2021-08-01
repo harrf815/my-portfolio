@@ -22,10 +22,10 @@ const About = () => {
             <h1>ABOUT</h1>
             <div className="line"></div>
          </div>
-         <div className="about-s">
+         <div className="about-s" style={{ minWidth: "300px" }}>
             <div className="about">
                <div className="about-image">
-                  <img className="me" src={Me} alt="pic of me" />
+                  <img className="me" src={Me} alt="pic of me" style={{ minWidth: "100px"}}/>
                </div>
                <div className="about-text">
                   <h2 id="hello">Hello!</h2>
